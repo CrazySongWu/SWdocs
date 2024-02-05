@@ -7,8 +7,8 @@ hero:
   text: "A Awesome Site"
   tagline: 个人分享博客
   image:
-    src: /images/暂无消息.svg
-    alt:  背景图
+    src: /images/cry.svg
+    alt:  background
   actions:
     - theme: brand
       text: Markdown Examples
