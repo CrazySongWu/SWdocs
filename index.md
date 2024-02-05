@@ -11,15 +11,18 @@ hero:
     alt:  background
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 学习心得
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: 经验分享
+      link: /api-examples
+    - theme: brand
+      text: 经验分享
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 建站原因
+    details: /my-index/reason.md
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
