@@ -7,7 +7,7 @@ hero:
   text: "A Awesome Site"
   tagline: 个人分享博客
   image:
-    src: /images/cry.svg
+    src: cry.svg
     alt:  background
   actions:
     - theme: brand
