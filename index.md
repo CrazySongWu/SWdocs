@@ -3,9 +3,12 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "SW's Docs sapce"
+  text: "A Awesome Site"
+  tagline: 个人分享博客
+  image:
+    src: /images/暂无消息.svg
+    alt:  背景图
   actions:
     - theme: brand
       text: Markdown Examples
