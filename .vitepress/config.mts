@@ -12,7 +12,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: "logo.svg",
     // 右侧文章目录
-    aside: "left", // 设置右侧侧边栏在左侧显示
+    // aside: "left", // 设置右侧侧边栏在左侧显示
     outlineTitle: "文章目录",
     outline: [1, 3],
 
@@ -40,75 +40,44 @@ export default defineConfig({
     // 顶部导航栏配置
     nav: [
       {
-        text: "前端",
-        items: [{ text: "React", link: "/docs/front-end/react" }],
+        text: "云计算",
+        items: [{ text: "云计算技术", link: "/docs/Cloud Computing/react" }],
       },
       {
-        text: "后端",
+        text: "运维",
         items: [
-          {
-            text: "SpringBoot集成各种技术",
-            link: "/docs/back-end/integrate-tech",
-          },
-          { text: "RabbitMQ", link: "/docs/back-end/rabbitmq" },
-          { text: "ElasticSearch", link: "/docs/back-end/elasticsearch" },
+          { text: "RabbitMQ", link: "/docs/devops/rabbitmq" },
         ],
       },
       {
         text: "Python",
         items: [
           { text: "基础语法", link: "/docs/python/base" },
-          { text: "爬虫", link: "/docs/python/spider" },
         ],
       },
       {
-        text: "网安",
+        text: "安全",
         items: [
-          { text: "信息收集", link: "/docs/net-sec/info-collect" },
-          { text: "web攻防", link: "/docs/net-sec/web-aad" },
-          { text: "内网渗透", link: "/docs/net-sec/intranet-pene" },
-          { text: "漏洞复现", link: "/docs/net-sec/vul-reproduce" },
+          { text: "信息收集", link: "/docs/secure/info-collect" },
         ],
       },
       {
-        text: "数学建模",
-        items: [
-          { text: "数据分析三剑客", link: "/docs/math-model/data-ana" },
-          { text: "评价类模型", link: "/docs/math-model/eval" },
-          { text: "预测类模型", link: "/docs/math-model/forecast" },
-          { text: "优化类模型", link: "/docs/math-model/optimize" },
-          { text: "分类模型", link: "/docs/math-model/classify" },
-        ],
-      },
-      {
-        text: "爬虫案例",
+        text: "爬虫",
         items: [
           { text: "B站刷播放量接口", link: "/docs/spiders/Bilibili" },
-          { text: "某练通爬取", link: "/docs/spiders/dlt" },
-          { text: "中考移民问题", link: "/docs/spiders/middle_exam" },
-        ],
-      },
-      {
-        text: "教程",
-        items: [
-          { text: "Electron+Vue3项目打包", link: "/docs/Tutorial/electron_package" },
-          { text: "VitePress搭建和部署", link: "/docs/Tutorial/vitepress" }
         ],
       },
       {
         text: "其他",
         items: [
-          { text: "Git", link: "/docs/tools/git" },
-          { text: "Docker", link: "/docs/tools/docker" },
-          { text: "iTime软件使用说明书", link: "/docs/tools/iTime_docs" },
-          { text: "常用图标", link: "/docs/tools/icons" },
+          { text: "git", link: "/docs/other/git" },
         ],
       },
     ],
-    // navbar: true, //开启导航栏，我设置成false也没啥用不知道为啥
-    // sidebar: false, // 关闭侧边栏
-    // lastUpdated: true, // 显示上次修改时间
-    // sidebar: { "/front-end/react": set_sidebar("front-end/react") },
+
+    // 显示上次修改时间
+    lastUpdated: true,
+    // sidebar: { "/front-end/react": set_sidebar("/docs/front-end/react") },
 
     // sidebar: [
     //   {
